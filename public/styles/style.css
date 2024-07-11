@@ -70,6 +70,7 @@ body {
 .dark-mode {
   background: #000;
   color: #fff;
+  overflow-x: hidden;
   transition: 5s ease-in-out all;
 }
 
@@ -379,6 +380,7 @@ button.main__btn {
 .first__row {
   display: flex;
   gap: 10px;
+  margin-top: 1.3rem;
   animation: slide 46s linear infinite;
 }
 
@@ -789,6 +791,7 @@ button.inspire__btn {
   height: 500px;
   margin-top: 100px;
   background-color: #ffda79;
+  overflow: hidden;
 }
 
 .yellow__btns {
@@ -797,7 +800,7 @@ button.inspire__btn {
 }
 
 h2.ff__txt {
-  font-size: 64px;
+  font-size: 3.1rem;
   text-align: center;
   padding-top: 50px;
 }

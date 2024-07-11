@@ -186,4 +186,39 @@
   .burger {
     display: none;
   }
+}
+@media screen and (max-width: 1040px) {
+  .footer__list {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .list_icon__footer {
+    flex-direction: row;
+  }
+  .yellow__txt {
+    display: flex;
+    position: relative;
+    top: -138px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .yellow__txt {
+    position: relative;
+    top: -156px;
+    overflow: hidden;
+    font-size: 19px;
+  }
+  .ff__txt {
+    font-size: 1rem;
+  }
+  .yellow__btns {
+    position: relative;
+    top: -33px;
+  }
+  .ss__txt {
+    margin-top: 10px;
+  }
 }/*# sourceMappingURL=responsive.css.map */
