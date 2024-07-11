@@ -61,14 +61,10 @@
     .log_in_show{
         display: none;
     }
-    button.sign-in {
-        // right: -60px;
-        position: relative;
-        // top: 10px;
+    button.sign-in {    
         position: relative;
         right: -60px;
-        top: -5px;
-        // right:-60px;
+        top: 55px;
     }
     button.sign-in.res1{
         position: relative;
@@ -189,6 +185,7 @@
     .burger{
         position: absolute;
         left: 10px;
+        top: 10px;
     }
     .wrapper_btns{
         display: flex;
@@ -245,5 +242,12 @@
     .ss__txt{
         margin-top: 10px;
     }
+    #desktop__logo{
+        display: none;
+    }
 }
-// @media screen and (max-width:)
+@media screen and (max-width:500px){
+    h2.main__title{
+        font-size: 2rem;
+    }    
+}
