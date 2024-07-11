@@ -83,6 +83,15 @@ body{
 .dark-mode ul#desktop a{
   color: #fff;
 }
+.dark-mode .icon__footer{
+  color: #fff;
+  background: #fff;
+  border-radius: 10px;
+  transition: 3s ease-in-out all;
+}
+.dark-mode #footer__txt{
+  color: #fff;
+}
 ul{
     transition: slide_left 2s ease-in-out ;
     list-style: none;
